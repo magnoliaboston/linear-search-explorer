@@ -1,0 +1,14 @@
+
+Test Plan: Edge Cases & Normal Cases
+Test                  Input List          Target           Expected Result          Actual Result                Notes 
+1                     1,2,3,4,5             3             Found at position 2      [Screenshot here]      Normal case, target in middle
+2                     1,2,3,4,5             1             Found at position 0      [Screenshot here]      Target at start
+3                     1,2,3,4,5             5             Found at position 4      [Screenshot here]      Target at end
+4                     1,2,3,4,5             6             Item not found           [Screenshot here]      Target not in list
+5                     `` (empty)            1             Item not found           [Screenshot here]      Empty list
+6                     10                    10            Found at position 0      [Screenshot here]      Single-item list
+7                     10,10,20              10            Found at position 0      [Screenshot here]      Duplicate values, first occurrence returned
+8                     a,2,3                 2             Error: invalid input     [Screenshot here]      Non-numeric input
+9                     1 , 2 , 3             2             Found at position 1      [Screenshot here]      Extra spaces in input
+10                   -5,0,5                -5             Found at position 0      [Screenshot here]      Negative numbers handled
+
