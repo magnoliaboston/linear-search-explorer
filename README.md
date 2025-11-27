@@ -46,7 +46,7 @@ Steps to Run:
 
 3. If the value matches the target, the algorithm stops immediately.
 
-4 If the value does not match the target, the algorithm moves to the next element and repeats the comparison.
+4. If the value does not match the target, the algorithm moves to the next element and repeats the comparison.
 
 5. Continue until the end of the list. The algorithm keeps checking each item one by one in order.
 
