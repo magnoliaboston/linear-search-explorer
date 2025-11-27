@@ -39,9 +39,27 @@ _________________________________
 Flowchart:
 _________________________________
 Steps to Run:
+
+1. Start at the beginning of the list, the algorithm begins by checking the first element in the list.
+
+2. Compare the current element with the target value. At each index, it checks if the value in the list matches the number the user is searching for.
+
+3. If the value matches the target, the algorithm stops immediately.
+
+4 If the value does not match the target, the algorithm moves to the next element and repeats the comparison.
+
+5. Continue until the end of the list. The algorithm keeps checking each item one by one in order.
+
+6. If the whole list is searched and no match is found then it will be displayed to the user. 
+
 _________________________________
 
 Hugging Face Link:
 _________________________________
 Author and Awknowledgment:
+
+This Linear Search Explorer application was developed by Magnolia Boston as part of a learning project focused on understanding basic search algorithms and improving programming skills in Python. The goal of the project was to design an interactive and easy-to-understand tool that demonstrates how linear search works step by step. The project included building the core search logic, handling user input, designing test cases, and producing a console-based version suitable for demonstration and assessment.
+
+I would like to say a thank you to Professor Kain for aiding in the development of this project by providing sufficient knowledge and support this term. As well as, external academic aids that helped me navigate uncertain concepts and tools/platforms for this project such as informative youtube tutorials and step by step instructions on how to work with Huggy Space. 
+
 _________________________________
