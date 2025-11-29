@@ -107,6 +107,53 @@ Algorithm Design:
 In my linear search program, the algorithm follows a simple flow using the graphical user interface (GUI). First, the user inputs the list of values and the target item through text boxes or dropdown fields in the GUI. Once they press the search button, the program begins the processing stage, where the linear search algorithm goes through the list one item at a time and checks for a match. After the search is complete, the output is shown back to the user on the screen, either telling them the position of the item or that it wasn’t found. This input → processing → output flow keeps the interaction smooth and makes the algorithm easy for the user to understand and use.
 _________________________________
 Flowchart:
+        ┌──────────────────┐
+        │   Start Program  │
+        └───────┬──────────┘
+                │
+                ▼
+        ┌──────────────────┐
+        │  User enters list│
+        │ and target value │
+        └───────┬──────────┘
+                │
+                ▼
+        ┌──────────────────┐
+        │  Press "Search"  │
+        └───────┬──────────┘
+                │
+                ▼
+        ┌──────────────────┐
+        │  Set index = 0   │
+        └───────┬──────────┘
+                │
+                ▼
+     ┌──────────────────────────┐
+     │Is index < length of list?│
+     └───────┬───────────┬──────┘
+             │Yes        │No
+             ▼           ▼
+   ┌──────────────────┐   ┌────────────────────────┐
+   │ Compare index    │   │Display "Item not found"│
+   │ to target value  │   └───────────┬────────────┘
+   └───────┬──────────┘               │
+           │Match?                    ▼
+      ┌────┴─────┐            ┌──────────────────┐
+      │   Yes    │            │    End Program   │
+      └────┬─────┘            └──────────────────┘
+           ▼
+┌────────────────────────┐
+│ Display "Item found at │
+│ position: index"       │
+└───────────┬────────────┘
+            │
+            ▼
+   ┌──────────────────┐
+   │   End Program    │
+   └──────────────────┘
+
+
+
 _________________________________
 Steps to Run:
 
