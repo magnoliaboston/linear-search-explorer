@@ -19,6 +19,8 @@ Target :  3
 Expected Result : Found at position 2  
 
 Actual Result : Screenshot 1  
+<img width="1282" height="235" alt="test1" src="https://github.com/user-attachments/assets/a1191a08-eb6b-4a25-a64c-acae42264fcb" />
+
 
 Notes :  Normal case, target in middle
 
@@ -31,6 +33,8 @@ Target : 1
 Expected Result : Found at position 0
 
 Actual Result : Screenshot 2
+<img width="1296" height="250" alt="test2" src="https://github.com/user-attachments/assets/64a9478e-6815-40db-854c-cea4b93f143f" />
+
 
 Notes : Target at start
 
