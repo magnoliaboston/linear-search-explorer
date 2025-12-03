@@ -178,6 +178,7 @@ Steps to Run:
 _________________________________
 
 Hugging Face Link:
+https://huggingface.co/spaces/magboston/linear_search_explorer
 _________________________________
 Author and Awknowledgment:
 
