@@ -39,7 +39,6 @@ Actual Result : Screenshot 2
 Notes : Target at start
 
 **Test 3**
-<img width="1266" height="246" alt="test3" src="https://github.com/user-attachments/assets/573aab4a-baaf-4bde-9a87-02ce4211dfc3" />
 
 Input List :  1,2,3,4,5  
 
@@ -48,6 +47,7 @@ Target :
 Expected Result : Found at position 4 
 
 Actual Result : Screenshot 3 
+<img width="1266" height="246" alt="test3" src="https://github.com/user-attachments/assets/573aab4a-baaf-4bde-9a87-02ce4211dfc3" />
 
 
 Notes : Target at end
