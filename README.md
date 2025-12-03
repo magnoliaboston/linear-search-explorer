@@ -39,6 +39,7 @@ Actual Result : Screenshot 2
 Notes : Target at start
 
 **Test 3**
+<img width="1266" height="246" alt="test3" src="https://github.com/user-attachments/assets/573aab4a-baaf-4bde-9a87-02ce4211dfc3" />
 
 Input List :  1,2,3,4,5  
 
@@ -47,6 +48,7 @@ Target :
 Expected Result : Found at position 4 
 
 Actual Result : Screenshot 3 
+
 
 Notes : Target at end
 
@@ -59,6 +61,8 @@ Target : 6
 Expected Result :  Item not found 
 
 Actual Result :  Screenshot 4 
+<img width="1295" height="380" alt="test4" src="https://github.com/user-attachments/assets/ae0acb27-27c4-445c-97e9-ef6b1cccad97" />
+
 
 Notes : Target not in list
 
@@ -71,6 +75,8 @@ Target : 1
 Expected Result : Item not found  
 
 Actual Result :  Screenshot 5
+<img width="1293" height="230" alt="test5" src="https://github.com/user-attachments/assets/2155f8b9-ec2a-4496-bc4c-ffd70472eb6d" />
+
 
 Notes : Empty list
 
@@ -83,6 +89,8 @@ Target : 10
 Expected Result : Found at position 0 
 
 Actual Result : Screenshot 6
+<img width="1273" height="242" alt="test6" src="https://github.com/user-attachments/assets/2b61d8af-b08c-4d93-80c5-a448544fdc00" />
+
 
 Notes : Single-item list
 
@@ -95,6 +103,8 @@ Target : 10
 Expected Result : Found at position 0
 
 Actual Result : Screenshot 7 
+<img width="1289" height="244" alt="test7" src="https://github.com/user-attachments/assets/3a15f0cb-33da-4e9b-a5f1-66c91ce14b6b" />
+
 
 Notes : Duplicate values, first occurrence returned
 
@@ -107,6 +117,8 @@ Target : 2
 Expected Result :  Error: invalid input 
 
 Actual Result :  Screenshot 8 
+<img width="1306" height="246" alt="test8" src="https://github.com/user-attachments/assets/b810e153-74e6-417a-b151-054bd6a7c7ae" />
+
 
 Notes : Non-numeric input
 
@@ -119,6 +131,8 @@ Target : 2
 Expected Result :  Found at position 1 
 
 Actual Result : Screenshot 9 
+<img width="1289" height="223" alt="test9" src="https://github.com/user-attachments/assets/4ad88a77-6cf6-48cd-b41c-f2ca76b4c1ff" />
+
 
 Notes : Extra spaces in input
 
@@ -131,6 +145,8 @@ Target : -5
 Expected Result : Found at position 0  
 
 Actual Result :  Screenshot 10 
+<img width="1285" height="234" alt="test10" src="https://github.com/user-attachments/assets/d5efdeff-bece-49dc-9d4f-d3f9c5126c74" />
+
 
 Notes : Negative numbers handled
 
