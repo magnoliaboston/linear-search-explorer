@@ -6,7 +6,7 @@ _____________________
   For this project, I decided to use linear search in my Python app because it fits both the scale of the work and my learning goals as a computing student. Linear search is straightforward and easy to understand, which makes it great for clearly showing how a search algorithm works without adding unnecessary complexity. Since it doesn’t require the data to be sorted beforehand, it works well with the small, unsorted datasets I’m using in this project. It also makes it easier for me to test, debug, and think about how the algorithm performs, which helps me build a stronger understanding of efficiency and problem-solving. Even though linear search isn’t the fastest option for very large datasets, it’s a practical and meaningful choice for learning the core ideas behind searching algorithms in a simple, manageable way.
 _____________________
 Demo Video/Screenshot
-
+https://1drv.ms/v/c/8772c784f6352d08/IQBoLi_yce2HS73h9xTrlN_0AaoZFQQa4vTwb_a8k2H_hVI?e=38ifXN
 _____________________
 Test Plan: Edge Cases & Normal Cases
 
