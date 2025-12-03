@@ -10,73 +10,123 @@ _____________________
 Test Plan: Edge Cases & Normal Cases
 
 Test 1
+
 Input List :   1,2,3,4,5  
-Target :  3         
-Expected Result : Found at position 2        
-Actual Result : Screenshot 1              
+
+Target :  3  
+
+Expected Result : Found at position 2  
+
+Actual Result : Screenshot 1  
+
 Notes :  Normal case, target in middle
 
 Test 2
+
 Input List :  1,2,3,4,5  
+
 Target : 1
+
 Expected Result : Found at position 0
+
 Actual Result : Screenshot 2
+
 Notes : Target at start
 
 Test 3
+
 Input List :  1,2,3,4,5  
-Target : 5
+
+Target : 
+
 Expected Result : Found at position 4 
+
 Actual Result : Screenshot 3 
+
 Notes : Target at end
 
 Test 4 
+
 Input List : 1,2,3,4,5  
+
 Target : 6
-Expected Result :  Item not found   
+
+Expected Result :  Item not found 
+
 Actual Result :  Screenshot 4 
+
 Notes : Target not in list
 
 Test 5
+
 Input List :  `` (empty) 
+
 Target : 1
+
 Expected Result : Item not found  
+
 Actual Result :  Screenshot 5
+
 Notes : Empty list
 
 Test 6
+
 Input List : 10 
+
 Target : 10 
+
 Expected Result : Found at position 0 
+
 Actual Result : Screenshot 6
+
 Notes : Single-item list
 
 Test 7
+
 Input List : 10,10,20 
+
 Target : 10 
+
 Expected Result : Found at position 0
+
 Actual Result : Screenshot 7 
+
 Notes : Duplicate values, first occurrence returned
 
 Test 8
+
 Input List : a,2,3
+
 Target : 2
+
 Expected Result :  Error: invalid input 
+
 Actual Result :  Screenshot 8 
+
 Notes : Non-numeric input
 
 Test 9
-Input List : 1 , 2 , 3  
+
+Input List : 1 , 2 , 3
+
 Target : 2
+
 Expected Result :  Found at position 1 
+
 Actual Result : Screenshot 9 
+
 Notes : Extra spaces in input
 
 Test 10 
+
 Input List : -5,0,5 
+
 Target : -5
+
 Expected Result : Found at position 0  
+
 Actual Result :  Screenshot 10 
+
 Notes : Negative numbers handled
 
 _________________________________
